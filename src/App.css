@@ -1,0 +1,75 @@
+
+
+body{
+  background-color: lightgray;
+}
+
+.app{
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main{
+  height: 400px;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: segoe UI;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main_content{
+  height: 100%;
+  padding: 20px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.inputs{
+
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-evenly;
+}
+
+
+.inputs>input,.inputs>select{
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  outline: none;
+  border:1px solid gray;
+  text-indent: 20px;
+  padding: 0px !important;
+}
+
+button{
+  padding:10px 20px 10px 20px ;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  align-self: baseline;
+  background-color: #3584cf;
+  color: white;
+  cursor: pointer;
+}
+
+.value{
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+}
+
+
